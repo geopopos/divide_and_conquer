@@ -1,5 +1,4 @@
 # Divide and Conquer
-___
 This project is being developed as a toy project. Intend to use it for managing GPU computation across multiple machine for machine learning algorithms, but that may change ast this project grows.
 
 The initial implementation of the ventilator, worker, and sink are from 0MQ's 'The Guide' [The Guide](http://zguide.zeromq.org/py:all#Divide-and-Conquer)
@@ -11,7 +10,6 @@ The ventilator and sink are static. They are single program instances which shou
 The workers are built to be dynamic. Being able scale them as needed.
 
 ## Getting started
-___
 ### Using the requirements.txt file.
 1. First install the required dependencies for this project
 ```
@@ -24,3 +22,8 @@ pip3 install -r requirements.txt
 > python3 worker/worker.py
 > python3 ventilator/ventilator.py
   http://zguide.zeromq.org/py:all#Divide-and-Conquer
+
+### Using docker-compose
+#### Prerequisites
+1. Have the docker version 19.03 or higher installed on your local machine
+2. Have docker-compose version 1.25 for higher installed on your local machine
