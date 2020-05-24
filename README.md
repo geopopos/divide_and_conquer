@@ -22,6 +22,7 @@ pip3 install -r requirements.txt
 > python3 worker/worker.py
 > python3 ventilator/ventilator.py
   http://zguide.zeromq.org/py:all#Divide-and-Conquer
+```
 
 ### Using docker-compose
 #### Prerequisites
